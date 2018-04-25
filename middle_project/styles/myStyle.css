@@ -1,0 +1,363 @@
+/*הכל*/
+body {
+    direction: rtl;
+    background-image: url('../IMAGES/background-black-blank-733857.jpg');
+    background-repeat: no-repeat;
+    background-size: 1400px;
+    background-attachment: fixed;
+    font-size: 23px;
+    background-position: 50% 0;
+    height:100%;
+   
+}
+
+
+#container {
+    width: 960px;
+    margin: 0 auto;
+   
+}
+
+#container, p, h1, h2, li {
+    font-family: 'Varela Round', sans-serif;
+}
+
+
+
+header {
+    width: 960px;
+    height: 120px;
+    position: relative;
+}
+
+#name {
+    color: black;
+    font-size:76px;
+    position:relative;
+    height:120px;
+    text-align:center;
+    margin-top:20px;
+}
+
+.whitebg {
+    background-color: rgba(255,255,255,0.7);
+    margin: 80px auto 0px auto;
+    width: 940px;
+    border-radius: 6px 6px;
+}
+
+/*ניווט*/
+
+#nav1{
+    list-style:none;
+    position:center;
+
+}
+nav #nav1 li {
+    display: inline-block;
+    float: right;
+    position:relative;
+    background-color:white;
+    opacity:0.7;
+   
+}
+nav #nav1 li a:hover:not(.work) {
+    display: inline-block;
+    float: right;
+    position: relative;
+    color:black;
+}
+
+    nav #nav1 li a:active:not(.work) {
+       background-color:cornflowerblue;
+       opacity:0.7;
+    }
+    nav #nav1 li a.work {
+        color: black;
+        display: block;       
+       font-weight:bold;
+        width: 240px;
+        height: 50px;
+        text-align: center;
+        padding-top: 10px;
+        font-size: 33px;
+        text-decoration:none;
+       
+    }
+
+    nav #nav1 li a:not(.work) {
+        display: block;
+        color: #4bd2d2;
+        text-decoration: none;
+        width: 240px;
+        height: 50px;
+        text-align: center;
+        padding-top: 10px;
+        font-size: 33px;
+    }
+/*עמוד 1*/
+
+  .me{
+      clear:both;
+      text-align:center;
+      margin:20px 0px;
+  }
+section {
+    clear: both;
+    text-align: center;
+    padding:5px;
+}
+
+
+ h1 a {
+    color: black;
+    text-decoration: none;
+}
+.sub {
+    display: inline-block;
+    background-color: white;
+    width: 260px;
+    height:320px;
+    margin: 20px 6px;
+    border-radius: 8px 8px;
+    padding-right:30px;
+   
+}
+    .sub, a {
+        text-decoration: none;
+        color:black;
+        width:260px;
+        height:320px;
+    }
+.sub:hover {
+    display: inline-block;
+    background-color: white;
+    width: 260px;
+    height:320px;
+    box-shadow:10px 10px #808080;
+    margin: 20px 6px;
+    border-radius: 8px 8px;
+    padding-right: 30px;
+}
+
+#nohar {
+    background-image: url('../IMAGES/think.PNG');
+    background-repeat: no-repeat;
+    background-size: 260px;
+    width: 260px;
+    height: 240px;
+    
+}
+#design {
+    background-image: url('../IMAGES/design.PNG');
+    background-repeat: no-repeat;
+    background-size: 260px;
+    width: 260px;
+    height: 240px;
+}
+#code {
+    background-image: url('../IMAGES/coding.PNG');
+    background-repeat: no-repeat;
+    background-size: 260px;
+    width: 260px;
+    height: 240px;
+}
+/*פוטר*/ 
+
+footer {
+    text-align: center;
+    height: 90px;
+  color:black;
+  margin-top:20px;
+
+    
+}
+
+
+#facebook {
+    background-image: url('../IMAGES/f535bb8a-53cb-4802-9901-be6ce82912c0.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50px;
+    color: transparent;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    margin-top:0px;
+}
+
+#facebook:hover {
+    background-image: url('../IMAGES/f535bb8a-53cb-4802-9901-be6ce82912c0.jpg');
+    opacity:0.5;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50px;
+    color: transparent;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    margin-top: 0px;
+}
+#insta {
+    background-image: url('../IMAGES/insta.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 55px;
+    color: transparent;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    margin-top:0px;
+}
+
+    #insta:hover {
+        background-image: url('../IMAGES/insta.jpg');
+        opacity: 0.5;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 55px;
+        color: transparent;
+        width: 50px;
+        height: 50px;
+        display: inline-block;
+        margin-top: 0px;
+      
+    }
+#email {
+    background-image: url('../IMAGES/gmail.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 55px;
+    color: transparent;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    margin-top: 0px;
+}
+
+    #email:hover {
+        background-image: url('../IMAGES/gmail.png');
+        opacity: 0.5;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 55px;
+        color: transparent;
+        width: 50px;
+        height: 50px;
+        display: inline-block;
+        margin-top: 0px;
+    }
+
+   /*עמוד 2*/
+
+.stav{
+    width:250px;
+    height:350px;
+    margin:10px;
+    display:inline;
+
+}
+    .stav:hover {
+        width: 250px;
+        height: 350px;
+        margin: 10px;
+        display: inline;
+        -webkit-box-shadow: 3px 3px 5px 5px #7D7D7D;
+        box-shadow: 3px 3px 5px 5px #7D7D7D;
+    }
+
+    /*עמוד 3*/
+
+.made {
+    width: 250px;
+    margin: 10px auto;
+    display: inline-block;
+    float:right;
+    
+}
+    .made:hover {
+        width: 250px;
+        margin: 10px auto;
+        display: inline-block;
+        float: right;
+        -webkit-box-shadow: 3px 3px 5px 5px #7D7D7D;
+        box-shadow: 3px 3px 5px 5px #7D7D7D;
+    }
+  
+.trasp{
+    display:inline-block;
+    width:500px;
+    margin:30px 0;
+    height:300px;
+    text-align:justify;
+} 
+
+
+audio{
+    border: 2px solid #808080;
+   
+}
+
+/*עמוד 4*/
+
+.web2 {
+    width: 450px;
+    margin: 10px auto;
+    display: block;
+    border-radius: 4px 4px;
+    -webkit-transition: all 66ms linear;
+    -moz-transition: all 66ms linear;
+    -ms-transition: all 66ms linear;
+    -o-transition: all 66ms linear;
+    transition: all 66ms linear;
+}
+
+.web2:hover {
+    width: 480px;
+    margin: 10px auto;
+    display: block;
+    border-radius: 4px 4px;
+    -webkit-transition: all 66ms linear;
+    -moz-transition: all 66ms linear;
+    -ms-transition: all 66ms linear;
+    -o-transition: all 66ms linear;
+    transition: all 66ms linear;
+}
+
+/*מוגדלות תמונות*/
+
+.goBack {
+    text-decoration: none;
+    width: 120px;
+    height: 20px;
+    border: 1px solid black;
+    border-radius: 4px 4px;
+    background-color: aliceblue;
+    display: block;
+    color: black;
+    margin: 10px auto;
+    padding: 25px;
+}
+
+    .goBack:hover {
+        text-decoration: none;
+        width: 120px;
+        height: 20px;
+        border: 1px solid black;
+        border-radius: 4px 4px;
+        background-color: #4bd2d2;
+        display: block;
+        color: black;
+        margin: 10px auto;
+        padding: 25px;
+    }
+
+.mid {
+    margin: 10px auto;
+}
+
+ .mid, .fullSize {
+    width: 400px;
+    height: 550px;
+}
+
