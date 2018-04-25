@@ -40,7 +40,7 @@ header {
 }
 
 .whitebg {
-    background-color: rgba(255,255,255,0.7);
+    background-color: rgba(255,255,255,0.8);
     margin: 80px auto 0px auto;
     width: 940px;
     border-radius: 6px 6px;
@@ -58,7 +58,7 @@ nav #nav1 li {
     float: right;
     position:relative;
     background-color:white;
-    opacity:0.7;
+    opacity:0.8;
    
 }
 nav #nav1 li a:hover:not(.work) {
@@ -116,11 +116,12 @@ section {
 .sub {
     display: inline-block;
     background-color: white;
-    width: 260px;
+    width: 258px;
     height:320px;
     margin: 20px 6px;
     border-radius: 8px 8px;
     padding-right:30px;
+    border:1px solid #7D7D7D;
    
 }
     .sub, a {
@@ -129,37 +130,38 @@ section {
         width:260px;
         height:320px;
     }
-.sub:hover {
-    display: inline-block;
-    background-color: white;
-    width: 260px;
-    height:320px;
-    box-shadow:10px 10px #808080;
-    margin: 20px 6px;
-    border-radius: 8px 8px;
-    padding-right: 30px;
-}
+        .sub:hover {
+            display: inline-block;
+            background-color: white;
+            width: 258px;
+            height: 320px;
+            box-shadow: 10px 10px #808080;
+            margin: 20px 6px;
+            border-radius: 8px 8px;
+            padding-right: 30px;
+            border: 1px solid #7D7D7D;
+        }
 
 #nohar {
     background-image: url('../IMAGES/think.PNG');
     background-repeat: no-repeat;
-    background-size: 260px;
-    width: 260px;
+    background-size: 258px;
+    width: 258px;
     height: 240px;
     
 }
 #design {
     background-image: url('../IMAGES/design.PNG');
     background-repeat: no-repeat;
-    background-size: 260px;
-    width: 260px;
+    background-size: 258px;
+    width: 258px;
     height: 240px;
 }
 #code {
     background-image: url('../IMAGES/coding.PNG');
     background-repeat: no-repeat;
-    background-size: 260px;
-    width: 260px;
+    background-size: 258px;
+    width: 258px;
     height: 240px;
 }
 /*פוטר*/ 
@@ -169,6 +171,8 @@ footer {
     height: 90px;
   color:black;
   margin-top:20px;
+  width:950px;
+  background-color:rgba(255,255,255,0.7);
 
     
 }
@@ -227,12 +231,12 @@ footer {
     background-image: url('../IMAGES/gmail.png');
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 55px;
+    background-size: 62px;
     color: transparent;
-    width: 50px;
-    height: 50px;
+    width: 61px;
+    height: 51px;
     display: inline-block;
-    margin-top: 0px;
+    margin-top: -33px;
 }
 
     #email:hover {
@@ -240,12 +244,12 @@ footer {
         opacity: 0.5;
         background-repeat: no-repeat;
         background-position: center;
-        background-size: 55px;
+        background-size: 62px;
         color: transparent;
-        width: 50px;
-        height: 50px;
+        width: 61px;
+        height: 51px;
         display: inline-block;
-        margin-top: 0px;
+        margin-top: -33px;
     }
 
    /*עמוד 2*/
@@ -264,6 +268,10 @@ footer {
         display: inline;
         -webkit-box-shadow: 3px 3px 5px 5px #7D7D7D;
         box-shadow: 3px 3px 5px 5px #7D7D7D;
+    }
+
+    #youtube{
+        margin-bottom:20px;
     }
 
     /*עמוד 3*/
@@ -322,6 +330,9 @@ audio{
     -ms-transition: all 66ms linear;
     -o-transition: all 66ms linear;
     transition: all 66ms linear;
+}
+.web{
+    text-decoration:underline;
 }
 
 /*מוגדלות תמונות*/
